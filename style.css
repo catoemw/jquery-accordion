@@ -1,0 +1,28 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	border-bottom: 1px solid cornflowerblue;
+}
+
+p {
+	border-left: 1px solid cornflowerblue;
+	border-right: 1px solid cornflowerblue;
+	margin: 0;
+	padding: 1em;
+	overflow: hidden;
+	transition: all 1000ms;
+}
+
+h1 {
+	color: #fff;
+	background-color: cornflowerblue;
+	margin: 0;
+	padding: .25em;
+}
+
+.hide {
+	height: 0;
+	padding: 0 1em;
+	transition: all 1000ms ease;
+}
